@@ -37,7 +37,6 @@ def cria_dicionario(perguntas, respostas):
     countb = 0
     with open("glove.42B.300d.txt", "r", encoding = "utf8") as file_glove:
         for line in file_glove:
-            countb += 1
             line = line.split(' ')
             palavra = line[0]
 
